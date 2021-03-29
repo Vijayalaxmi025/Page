@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Life</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Food</a></li>
+        <li><a href="#">Healthy</a></li>
+        <li><a href="#">Unhealthy</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container" Style="background-color: mintcream; height:auto; text-align: center; width:100%">
+    <h1>FOOD AND ITS USES</h1>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://www.wallpapertip.com/wmimgs/50-504557_healthy-foods-wallpaper-21-background-wallpaper-healthy-foods.jpg" style="height:500px"; alt="Image">
+        <div class="carousel-caption">
+          <h3>Sell $</h3>
+          <p>Money Money.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1550807014-1236e91b92d4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" style="height:500px";alt="Image">
+        <div class="carousel-caption">
+          <h3>More Sell $</h3>
+          <p>Lorem ipsum...</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h3>What We Do</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://www.wallpaperup.com/uploads/wallpapers/2018/03/18/1232340/f33e4529e81448154f9689b78bc6031e-700.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://images.pexels.com/photos/793237/pexels-photo-793237.jpeg?cs=srgb&dl=pexels-robomorfo-multimedia-793237.jpg&fm=jpg" class="img-responsive" style="width:100% height:300px;" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p style="color:fuchsia">Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids.</p>
+      </div>
+      <div class="well">
+       <p style="color:fuchsia">Fast food refers to food that can be prepared and served quickly. It can come from many places: sit-down restaurants, counter service, take-out, drive-thru, and delivery. Fast food is popular because the food is inexpensive, convenient, and tastes good.
+    </p>
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container" style="background-color:darkorange; height:380px;">
+    <br>
+    <h1 style="text-align: center;color:mediumseagreen">Benefits of food</h1>
+    <br>
+    <p style="color:maroon;">Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as oligo carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms, often evolved to fill a specific ecological niche within specific geographical contexts.</p>
+    <br>
+    <p style="color:maroon;">In the midst of the COVID-19 pandemic, eating healthy food remains an important part of maintaining your health. While there are no specific foods that can help protect you from the virus, a nutritious diet can boost your immune system or help you fight off symptoms. You may not be able to share meals with friends and loved ones, but there are lots of other ways to eat well and support your health at this difficult time..</p>
+<br>
+<p style="color:maroon;"">Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood.</p>
+
+</div>
+<br>
+<br>
+<div class="container" style="background: darkblue;height:650px; ">
+    <div class="row">
+    <div class="col">
+        <div class="card bg-success" style="height:300px; width:50%; margin-left:380px; margin-top:20px; border-top-left-radius:40px; border-bottom-right-radius:40px;">
+            <div class="card-body text-center">
+              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/quotes-about-change-1580499303.jpg?crop=0.670xw:1.00xh;0.296xw,0&resize=640:*" style="height:200px; border-radius:100%; width:200px; margin-top:15px;">
+              
+              <br><br><p class="card-text">"A difference in your life today will start when you choose to move on from what happened yesterday." </p>
+            </div>
+            <br>
+
+
+
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="card bg-success" style="height:300px; width:50%; margin-left:380px; margin-top:20px; border-top-left-radius:40px;border-bottom-right-radius: 40px;">
+              <div class="card-body text-center">
+                <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_800/MTc1MDEyNzYxODk2OTUzNjQz/sunmosa.webp" style="height:200px; border-radius:100%; width:200px; margin-top:15px;">
+                
+                <br><br><p class="card-text">"The way to get started is to quit talking and begin doing." </p>
+              </div>
+              <br>
+              
+  
+  
+      </div>
+  
+
+    </div>
+</div>
+</div>
+<br>
+<br>
+
+
+
+
+<footer class="container-fluid text-center">
+  <h3>Follow Us</h3><br>
+  
+  <div class="row">
+   
+  <i class="fas fa-cloud" style="height:50px;width:50px;font-size:x-large;border-radius:100%;"></i>
+
+
+  <i class="fas fa-file" style="height:50px;width:50px;font-size:x-large;border-radius:100%;"></i>
+ 
+  <i class="fas fa-bars"style="height:50px;width:50px;font-size:x-large;border-radius:100%;"></i>
+</div>
+</footer>
+
+
+
+</body>
+</html>
